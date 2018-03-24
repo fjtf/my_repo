@@ -18,6 +18,12 @@ var num = document.getElementById("n3");
 
 num.value = Math.sin(num.value);
 
+function a_cuatro() {
+
+var num = document.getElementById("n2");
+
+num.value = Math.pow(num.value, 4);
+
 }
 
 </script>
@@ -33,10 +39,15 @@ Number:
 <button onclick="cube()"> x^3 </button><p>
 
 Number:
+<input type="text" id="n2"><p>
+
+<button onclick="a_cuatro()"> x^4 </button><p>
+
+Number:
 
 <input type="text" id="n3"><p>
 
-<button onclick="seno()"> seno </button>
+<button onclick="seno()"> seno </button><p>
 
 </body>
 
